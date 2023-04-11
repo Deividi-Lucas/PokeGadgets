@@ -8,8 +8,10 @@ export const Post = styled.div`
   padding: 0.5rem;
   border-radius: 1rem;
   background: rgb(255, 255, 255, 0.2);
+  height: 7rem;
+  overflow: hidden;
   img {
-    height: 7rem;
+    height: 6rem;
     transform: scale(70%);
     transition: 200ms;
     &:hover {
