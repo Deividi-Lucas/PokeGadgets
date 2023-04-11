@@ -8,6 +8,8 @@ export const Main = styled.div`
 `
 
 export const Components = styled.div`
+  margin: 1rem 0;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
