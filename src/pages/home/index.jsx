@@ -6,6 +6,7 @@ import Card from '../../components/Card'
 import charmander from '../../assets/charmander.svg'
 import bulbasaur from '../../assets/bulbasaur.svg'
 import squirtle from '../../assets/squirtle.svg'
+import Footer from '../../components/Footer'
 
 export default function Home() {
   const [pokelist, setPokelist] = useState()
@@ -22,6 +23,7 @@ export default function Home() {
         <Card name="Charmander" alt="charmeleon-image" img={charmander} $fire />
         <Card name="Squirtle" alt="squirtle-image" img={squirtle} />
       </Components>
+      <Footer />
     </Main>
   )
 }
