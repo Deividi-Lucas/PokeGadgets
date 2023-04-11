@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components'
-import { fire, water, grass } from '../../utils/color'
 
 export const Post = styled.div`
   display: flex;
@@ -20,7 +19,8 @@ export const Post = styled.div`
   }
 
   span {
-    text-shadow: 1px 3px 1rem black;
+    /* color: white; */
+    text-shadow: 1px 1px 0.125rem black;
     font-weight: 700;
   }
 `

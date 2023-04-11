@@ -1,15 +1,17 @@
-export const water = '#6890f0'
-export const fire = '#f05030'
-export const grass = '#78c850'
-export const electr = '#f8d030'
-export const psychc = '#f85888'
-export const ice = '#98d8d8'
-export const dragon = '#7038f8'
-export const dark = '#705848'
-export const fight = '#903028'
-export const flying = '#a890f0'
-export const poison = '#a040a0'
-export const ground = '#e0c068'
-export const rock = '#b8a038'
-export const steel = '#b8b8d0'
-export const ghost = '#705898'
+export const color = {
+  water: '#6890f0',
+  fire: '#f05030',
+  grass: '#78c850',
+  electr: '#f8d030',
+  psychc: '#f85888',
+  ice: '#98d8d8',
+  dragon: '#7038f8',
+  dark: '#705848',
+  flying: '#a890f0',
+  fight: '#903028',
+  poison: '#a040a0',
+  ground: '#e0c068',
+  rock: '#b8a038',
+  steel: '#b8b8d0',
+  ghost: '#705898'
+}
