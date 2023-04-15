@@ -13,6 +13,7 @@ export const Components = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 
   a {
     color: ${color.ice};
